@@ -35,13 +35,13 @@ spec:
     enableTerraformUI: true
     # -- Configure TLS settings if needed
     # tls:
-      # -- Can be disabled if TLS is handled by a user-provided ingress controller
-      # enabled: true
-      # -- optionally specify a TLS secret
-      # secretName: null
+    # -- Can be disabled if TLS is handled by a user-provided ingress controller
+    # enabled: true
+    # -- optionally specify a TLS secret
+    # secretName: null
     config:
       capi:
-        repositoryURL: https://github.com/opudrovs/gitops-ent-demo
+        repositoryURL: https://github.com/AlinaGoaga/gitops-ent-demo
         # -- Can be changed depending on your git repo structure
         repositoryPath: ./clusters/clusters
         repositoryClustersPath: ./clusters
